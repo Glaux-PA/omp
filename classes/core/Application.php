@@ -243,6 +243,11 @@ class Application extends PKPApplication
         return 'seriesId';
     }
 
+    public static function hasSingleFileRepresentations(): bool
+    {
+        return false;
+    }
+
     /**
      * Get the help URL of this application
      */
